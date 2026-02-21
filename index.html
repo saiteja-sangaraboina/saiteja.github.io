@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Teja Sangaraboina | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f1f5f9;
+            color: #1f2933;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        header .links {
+            margin-top: 18px;
+        }
+
+        header .links a {
+            margin: 0 10px;
+            font-weight: 500;
+            color: #e0e7ff;
+        }
+
+        header .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1100px;
+            margin: -40px auto 40px;
+            padding: 20px;
+        }
+
+        /* SECTION */
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-4px);
+        }
+
+        section h2 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: #1e40af;
+            position: relative;
+        }
+
+        section h2::after {
+            content: '';
+            width: 50px;
+            height: 4px;
+            background: #2563eb;
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            border-radius: 2px;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #eef2ff;
+            color: #1e3a8a;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .skill:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+        /* EDUCATION & EXPERIENCE */
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+
+        .item span {
+            font-size: 0.9rem;
+            color: #475569;
+        }
+
+        ul {
+            margin-top: 8px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293b;
+            color: #cbd5e1;
+            font-size: 0.9rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sai Teja Sangaraboina</h1>
+    <p>Computer Science Engineering Student | Web Developer</p>
+    <p>Warangal, India</p>
+
+    <div class="links">
+        <a href="mailto:saitejasangaraboina@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sai-teja-sangaraboina" target="_blank">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Computer Science Engineering student with hands-on experience in web development and AI prompt engineering.
+            Skilled in building real-world applications using modern frontend and backend technologies.
+            Passionate about learning, problem-solving, and growing in a professional environment.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PHP</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">Git</div>
+            <div class="skill">Figma</div>
+            <div class="skill">DSA</div>
+            <div class="skill">AI & ML Basics</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+
+        <div class="item">
+            <h3>B.Tech – Computer Science Engineering</h3>
+            <span>KITS Warangal | 2024 – 2027 | CGPA: 6.5</span>
+        </div>
+
+        <div class="item">
+            <h3>Diploma – Computer Science Engineering</h3>
+            <span>VMR Pradeep Kumar Institute | 2021 – 2024 | A with Distinction</span>
+        </div>
+
+        <div class="item">
+            <h3>SSC</h3>
+            <span>Indian VVR High School | CGPA: 10</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <div class="item">
+            <h3>Web Developer Intern – Apex Planet Software Pvt Ltd</h3>
+            <span>May 2025 – July 2025</span>
+            <ul>
+                <li>Built web applications using HTML, CSS, JavaScript, PHP, and MySQL</li>
+                <li>Implemented CRUD operations and database management</li>
+                <li>Worked on real-world development tasks</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3>AI & Prompt Engineering Intern – Vault of Codes</h3>
+            <span>June 2025 – July 2025</span>
+            <ul>
+                <li>Designed and optimized prompts for generative AI</li>
+                <li>Analyzed AI-generated responses</li>
+                <li>Gained hands-on prompt engineering experience</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Sai Teja Sangaraboina • Portfolio
+</footer>
+
+</body>
+</html>
